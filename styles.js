@@ -26,9 +26,9 @@ function setup() {
 }
 
 function draw() {
-    stroke(0, 20);
+    stroke(0, 50);
 
-    for (j = 0; j < 1000000; j++) {
+    for (j = 0; j < 100000; j++) {
         X = random(-10, 10);
         Y = random(-10, 10);
 
